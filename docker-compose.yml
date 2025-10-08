@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: RegistrationClean
+    environment:
+      POSTGRES_DB: RegistrationClean
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Lukinha123
+    ports:
+      - "5431:5432"
+    restart : always
