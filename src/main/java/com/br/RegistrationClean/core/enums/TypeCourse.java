@@ -1,6 +1,6 @@
-package com.br.RegistrationClean.core.Enums;
+package com.br.RegistrationClean.core.enums;
 
-public enum TipoCurso {
+public enum TypeCourse {
 
     GESTAO_DE_TECNOLOGIA,
     ADS,
