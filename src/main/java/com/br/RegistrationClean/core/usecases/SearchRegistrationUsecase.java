@@ -2,7 +2,10 @@ package com.br.RegistrationClean.core.usecases;
 
 import com.br.RegistrationClean.core.entities.Registration;
 
-public interface searchRegistrationCase {
+import java.util.List;
 
-    public Registration execute(Registration registration);
+public interface SearchRegistrationUsecase {
+
+
+    public List<Registration> execute();
 }

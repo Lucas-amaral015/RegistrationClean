@@ -2,7 +2,7 @@ package com.br.RegistrationClean.core.usecases;
 
 import com.br.RegistrationClean.core.entities.Registration;
 
-public interface createRegistrationCase {
+public interface CreateRegistrationUsecase {
 
-    public Registration executar(Registration registration);
+    public Registration execute(Registration registration);
 }
