@@ -19,9 +19,11 @@ public class RegistrationEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private int cpf;
-    private LocalDateTime homeRegistration;
-    private String locationCollege;
+    private String cpf;
+
     @Enumerated(EnumType.STRING)
     private TypeCourse type;
+    private LocalDateTime homeRegistration;
+    private String locationCollege;
+
 }
