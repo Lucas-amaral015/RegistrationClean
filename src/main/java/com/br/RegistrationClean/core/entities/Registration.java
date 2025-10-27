@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 
 public record Registration(Long id,
                            String name,
-                           int cpf,
+                           String cpf,
                            TypeCourse type,
                            LocalDateTime homeRegistration,
                            String locationCollege) {}
